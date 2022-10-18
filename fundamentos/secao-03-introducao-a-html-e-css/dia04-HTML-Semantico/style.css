@@ -1,10 +1,14 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: 0;;
 }
 
 #stylepage{
     margin-left: 10px;
+}
+
+h6{
+    visibility: hidden;
 }
 
 /* Cabeçalho */
@@ -26,4 +30,40 @@
     border-style: groove;
     border-radius: 3%;
     margin-top: 10px;
+}
+
+.img{
+    max-width: 30%;
+    margin-left: 35%;
+    margin-top: 20px;
+}
+
+/* Refs */
+.refs{
+    text-align: center;
+    background-color: rgb(67, 168, 42);
+    text-decoration: dotted;
+    color: aliceblue;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+/* aside */
+.aside{
+    display: block
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-image: 
+    overflow-x: hidden;
+    padding-top: px;
+}
+
+/* Footer */
+.footer{
+    background-color: bisque;
+    text-align: center;
 }
