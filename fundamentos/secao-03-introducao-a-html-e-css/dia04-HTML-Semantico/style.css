@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#stylepage{
+    margin-left: 10px;
+}
+
+/* Cabeçalho */
+.header{
+    background-color: rgb(42, 189, 103);
+    text-align: center;
+}
+
+.navbar{
+    display: inline;
+}
+
+/* Conteúdo */
+.titulo-stomapoda{
+    margin-top: 15px;
+}
+
+.table{
+    border-style: groove;
+    border-radius: 3%;
+    margin-top: 10px;
+}
